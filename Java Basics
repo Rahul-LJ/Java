@@ -1,13 +1,13 @@
 Java as other languages need an Integrated Devalopment Environment (IDE) to run and test your codes.
+There are many types in data such as
+int, float, char, etc
 
 Syntax to print
  _____________________________
 | System.out.print( value );  |
 |_____________________________|
 eg: System.out.print("Hello World");     --> note for string, quotes MUST be DOUBLE quotes
-
-There are many types in data such as
-int, float, char, etc
+                                         --> PLUS sign must to used if different types used
 
 Syntax assigning value to a variable
  _____________________________
