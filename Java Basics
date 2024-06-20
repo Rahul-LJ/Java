@@ -14,3 +14,9 @@ Syntax assigning value to a variable
 | type variablename = value;  |          --> need not mention type when updating/changing values
 |_____________________________|
 eg: int num = 5;
+
+There are different types for ranges of number
+Byte      -128 to 127
+Short     -32768 to 32767
+Integer   -2147483648 to 2147483647
+Long      -9223372036854775808 to 9223372036854775807     --> use the type as required
