@@ -20,3 +20,20 @@ Byte      -128 to 127
 Short     -32768 to 32767
 Integer   -2147483648 to 2147483647
 Long      -9223372036854775808 to 9223372036854775807     --> use the type as required
+
+
+class     - blueprint/Structure of an object
+object    - instance of a class (basically a complex level of a variable)
+attribute - defining the variables (int t; String s;)
+ ________________________________________________
+| public  static   void    main(String args[]    |
+|___^________^_______^_________^_________________|
+ access   method  return     method name
+modifier   type    type     and parameters
+
+
+
+keywords
+static         - prevents the need to create an object, to call a variable from ANOTHER class
+final          - prevents the updation of value, its basically locked to the given value
+main           - makes the data accessible everywhere
