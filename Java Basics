@@ -2,6 +2,43 @@ Java as other languages need an Integrated Devalopment Environment (IDE) to run 
 There are many types in data such as
 int, float, char, etc
 
+class     - blueprint/Structure of an object
+object    - instance of a class (basically a complex level of a variable)
+attribute - defining the variables (int t; String s;)
+
+In java, code must be within something called a 'class'
+to use THOSE codes in some other class, we can call them as 'object' in the other class
+
+______________________________________________________________________________________________
+
+SYNTAXES
+
+ ________________________________________________
+| public  static   void    main(String args[]    |
+|___^________^_______^_________^_________________|
+ access   method  return     method name
+modifier   type    type     and parameters
+
+keywords
+ACCESS MODIFIERS (can be emtpy)
+Public         - access from anywhere
+Private        - access only in the defined class
+Protected     - access within the defined class and its subclasses
+
+METHOD TYPE
+static         - prevents the need to create an object, to call a variable from ANOTHER class
+final          - prevents the updation of value, its basically locked to the given value
+abstract       - when you want to redefine in different subclasses
+
+RETURN TYPE
+void           - no return value
+int            - returns int value
+double         – Returns a decimal value
+boolean        – Returns true or false
+char           – Returns a single character
+String         – Returns a sequence of characters
+float          – Returns a floating-point number
+________________________________________________________________
 Syntax to print
  _____________________________
 | System.out.print( value );  |
@@ -14,26 +51,9 @@ Syntax assigning value to a variable
 | type variablename = value;  |          --> need not mention type when updating/changing values
 |_____________________________|
 eg: int num = 5;
-
+________________________________________________________________________________________________
 There are different types for ranges of number
 Byte      -128 to 127
 Short     -32768 to 32767
 Integer   -2147483648 to 2147483647
 Long      -9223372036854775808 to 9223372036854775807     --> use the type as required
-
-
-class     - blueprint/Structure of an object
-object    - instance of a class (basically a complex level of a variable)
-attribute - defining the variables (int t; String s;)
- ________________________________________________
-| public  static   void    main(String args[]    |
-|___^________^_______^_________^_________________|
- access   method  return     method name
-modifier   type    type     and parameters
-
-
-
-keywords
-static         - prevents the need to create an object, to call a variable from ANOTHER class
-final          - prevents the updation of value, its basically locked to the given value
-main           - makes the data accessible everywhere
