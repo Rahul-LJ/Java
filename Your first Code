@@ -1,0 +1,5 @@
+Public class code{                                 defining a class
+    public static void main(String args[]){        defining a method
+        System.out.print("Hello world");           code/block, must end with ; every line
+    }
+}
