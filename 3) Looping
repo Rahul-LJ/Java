@@ -1,0 +1,19 @@
+class code{
+    public static void main(String args[]){
+        for(int i=1; i<11; i++){                 define a variable for loop, limit, step
+            System.out.println(i);
+        }
+    }
+}
+_________________________________________________________________________________
+OUTPUT
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
