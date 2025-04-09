@@ -3,3 +3,6 @@ Public class code{                                 defining a class
         System.out.print("Hello world");           code/block, must end with ; every line
     }
 }
+__________________________________________________________________________________
+OUTPUT
+Hello world
