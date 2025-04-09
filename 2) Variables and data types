@@ -1,0 +1,15 @@
+public class code{
+    public static void main(String args[]){
+        int a = 1;                                  defining and assigning variables
+        int b = 2;
+        String word = "hello";                      strings ALWAYS to be in DOUBLE QUOTES
+        System.out.println(a+b);                    #3
+        System.out.println(a+b+word);               #3hello
+        System.out.printf("Value of a is %d",a);    #Value of a is 1
+    }
+}
+__________________________________________________________________________________
+OUTPUT
+3
+3hello
+Value of a is 1
