@@ -39,21 +39,21 @@ char           – Returns a single character
 String         – Returns a sequence of characters
 float          – Returns a floating-point number
 ________________________________________________________________
-Syntax to print
- _____________________________
-| System.out.print( value );  |
-|_____________________________|
-eg: System.out.print("Hello World");     --> note for string, quotes MUST be DOUBLE quotes
-                                         --> PLUS sign must to used if different types used
 
-Syntax assigning value to a variable
- _____________________________
-| type variablename = value;  |          --> need not mention type when updating/changing values
-|_____________________________|
-eg: int num = 5;
-________________________________________________________________________________________________
-There are different types for ranges of number
-Byte      -128 to 127
-Short     -32768 to 32767
-Integer   -2147483648 to 2147483647
-Long      -9223372036854775808 to 9223372036854775807     --> use the type as required
+Built in functions
+System.out.print(<>)                  - prints the given value in the CURRENT cursor position
+                                        different data types can be printed with a +
+
+System.out.println(<>)                - prints in the CURRENT cursor position then MOVES cursor to NEXT LINE
+
+System.out.printf(<>,<>)              - string format, followed by all variables
+                                        %d for Integer
+                                        %f for float and double
+
+ScannerObj.nextInt()                  - inputs an integer
+ScannerObj.nextDouble()               - inputs a double
+ScannerObj.nextFloat()                - inputs a float
+ScannerObj.nextLine()                 - inputs a string
+
+Math.pow(<base>,<power>)              - to use power in calculations
+
