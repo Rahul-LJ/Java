@@ -1,0 +1,27 @@
+import java.util.Scanner;                                      u need to import, for inputs
+public class code{
+    public static void main(String args[]){
+        Scanner object = new Scanner(System.in);               creating an object for Scanner
+        int input = object.nextInt();                          accepting int value with .nextInt()
+        
+        int m = input;
+        int temp = 0;
+        while(m>0){
+            int reminder = m%10;
+            temp = temp*10 + reminder;
+            m = m/10;
+        }
+        if(temp==input){                                       if, else CONDITION must be in () then code in {}
+            System.out.print("Yes, It's a palindrome");
+        }
+        else{
+            System.out.print("No, It's not a palindrome");
+        }
+    }
+}
+_________________________________________________________________________________________
+INPUT
+122
+
+OUTPUT
+No, It's not a palindrome
