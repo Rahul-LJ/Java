@@ -57,3 +57,12 @@ ScannerObj.nextLine()                 - inputs a string
 
 Math.pow(<base>,<power>)              - to use power in calculations
 
+.length()                             - returns length of the string/array
+.charAt(<>)                           - returns value of that Index
+.equals(<>)                           - compares the string directly
+.compareTo(<>)                        - compares by ASCII value, returns the DIFFERENCE
+.concat(<>)                           - returns 2 strings together as one
+.startsWith(<>)                       - returns boolean my checking the start
+.endsWith(<>)                         - returns boolean my checking the end
+.indexOf(<>)                          - returns the first index of the found paramater
+.replace(<>,<>)                       - replace the first argument with the 2nd at every occurance
