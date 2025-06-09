@@ -1,0 +1,32 @@
+matrix are very similar to array, the difference is
+you add another indexing variable
+___________________________________________________________
+
+import java.util.Scanner;
+class code{
+    public static void main(String args[]){
+        Scanner s = new Scanner(System.in);
+        int m = s.nextInt();
+        int n = s.nextInt();
+        int arr[][] = new int[m][n];
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+            arr[i][j] = s.nextInt();
+            }
+        }
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+            System.out.print(arr[i][j]+" ");                this inner loop returns column (elements in the same line)
+            }
+            System.out.println("");                          this outer loop returns rows (to go next line)
+        }
+    }
+}
+___________________________________________________________
+INPUT
+2 2
+1 2 3 4
+
+OUTPUT
+1 2
+3 4
