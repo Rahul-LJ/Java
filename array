@@ -1,0 +1,23 @@
+array are basically list containing objects of same data type
+________________________________________________________________
+import java.util.Scanner;
+class code{
+    public static void main(String args[]){
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();                                 length/no of elements in the array
+        int arr[] = new int[n];                              data_type <arrayName>[] = new data_type[<length>]
+        for(int i=0;i<n;i++){                                looping is used, as input requires repetition
+            arr[i] = s.nextInt();                            collecting and assigning values to the INDEX i
+        }
+        for(int i=0;i<n;i++){
+            System.out.print(arr[i]+" ");
+        }
+    }
+}
+________________________________________________________________
+INPUT
+5
+1 2 3 4 5
+
+OUTPUT
+1 2 3 4 5
