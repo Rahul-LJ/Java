@@ -1,0 +1,27 @@
+in an if-else program, conditions MUST be in BRACKET
+and the condition statement in PARENTHESIS
+_____________________________________________________________
+import java.util.Scanner;
+class code{
+    public static void main(String args[]){
+        Scanner s = new Scanner(System.in);
+        
+        int n = s.nextInt();
+        if (n==0){
+            System.out.print("value of n is 0");
+        }
+        else if (n==1){
+                System.out.print("value of n is 1");
+        }
+        else{
+            System.out.print("value of n was not 0 or 1");
+            
+        }
+    }
+}
+_____________________________________________________________
+INPUT
+1
+
+OUTPUT
+value of n is 1
