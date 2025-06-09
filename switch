@@ -1,0 +1,22 @@
+using 'switch' in java is similar to using if else
+you use the keyword 'case' followed by the value of n,
+'break' is a must for each case
+______________________________________________________________________
+import java.util.Scanner;
+class code{
+    public static void main(String args[]){
+        Scanner s = new Scanner(System.in);
+        
+        int n = s.nextInt();
+        switch(n){
+            case 0:
+                System.out.print("value of n is 0");
+                break;
+            case 1:
+                System.out.print("value of n is 1");
+                break;
+            default:
+            System.out.print("value of n was not 0 or 1");
+        }
+    }
+}
