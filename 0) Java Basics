@@ -74,4 +74,7 @@ Conditions
 &&   and
 <=   less than or equal
 >=   greater than or equal
+
+i++  reads the variable THEN ADDS 1 (updation)
+++i  ADDS 1 FIRST then reads the variable (updatation)
 ________________________________________________________________
