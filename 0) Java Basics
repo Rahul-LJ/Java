@@ -66,3 +66,12 @@ Math.pow(<base>,<power>)              - to use power in calculations
 .endsWith(<>)                         - returns boolean my checking the end
 .indexOf(<>)                          - returns the first index of the found paramater
 .replace(<>,<>)                       - replace the first argument with the 2nd at every occurance
+________________________________________________________________
+
+Conditions
+
+||   or
+&&   and
+<=   less than or equal
+>=   greater than or equal
+________________________________________________________________
