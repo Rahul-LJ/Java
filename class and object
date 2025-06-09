@@ -1,0 +1,52 @@
+We create mutiple classes and a MAIN CLASS (where u call them)
+within each class, u MUST DEFINE the the varibles with data type
+IMPORTANT: then defining METHODs with the SAME NAME as the class makes it a CONSTRUCTOR
+
+in the main code you create OBJECT for these classes
+<class_name>    <func name>      = new <class_name>(arguments);
+              this is obj name
+
+with this obj name, now we can just call the methods
+_______________________________________________________
+import java.util.Scanner;
+class raone{
+    int a;
+    int b;
+    raone(int a, int b){                               we get here when the object is called
+        this.a=a;
+        this.b=b;
+    }
+    public void display(){
+        System.out.println(a+" "+b);
+    }
+}
+
+class ratwo{
+    int a;
+    int b;
+    ratwo(int a,int b){
+        this.a=a;
+        this.b=b;
+    }
+    public void add(){
+        System.out.println(a+b);
+    }
+}
+class code{
+    public static void main(String args[]){
+        Scanner s = new Scanner(System.in);
+        int var1 = s.nextInt();
+        int var2 = s.nextInt();
+        raone f1 = new raone(var1,var2);               <class_name> <func name> = new <class_name>(arguments);
+        ratwo f2 = new ratwo(var1,var2);
+        f1.display();                                  the methods are called here
+        f2.add();                                      <func_name>.<method_name>(arguments);
+        }
+    }
+_______________________________________________________
+INPUT
+1 4
+
+OUTPUT
+1 4
+5
