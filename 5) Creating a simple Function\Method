@@ -1,6 +1,6 @@
 import java.util.Scanner;
 class code{
-    static int add(int a, int b){                                    defining a function, with parameters (datatype MUST be mentioned)
+    static int add(int a, int b){                                    defining a method, with parameters (datatype MUST be mentioned)
         return a+b;                                                  returns an INT which is the sum here
     }
     
@@ -8,7 +8,7 @@ class code{
         Scanner object = new Scanner(System.in);
         int n = object.nextInt();
         int m = object.nextInt();
-        int sum = add(n,m);                                          CALLING the function, and assigning it's return value
+        int sum = add(n,m);                                          CALLING the method, and assigning it's return value
         System.out.printf("Sum of %d and %d is %d",n,m,sum);
     }
 }
