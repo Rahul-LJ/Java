@@ -1,0 +1,37 @@
+In constrast to overloading, overiding happens with different classes with INHERITANCE
+method is defined in the PARENT class itself
+but is overiden in CHILD class with keyword '@Overide'
+_______________________________________________________________
+import java.util.Scanner;
+class A{
+    int n;
+    void setvalue(int n){
+        this.n=n;
+    }
+    int value(){
+        return n*0;
+    }
+}
+
+class B extends A{
+    @Override
+    int value(){
+        return n*10;
+    }
+}
+class code{
+    public static void main(String args[]){
+        Scanner s = new Scanner(System.in);
+        int a = s.nextInt();
+        A func = new B();                         note we use A, for Polymorphism (works fine with A too)
+        func.setvalue(a);                         we need to INITIALIZE the value of a, else n would just be zero
+        a = func.value();                         A class is overiden by B
+        System.out.print(a);
+    }
+}
+______________________________________________________________
+INPUT
+6
+
+OUTPUT
+60
