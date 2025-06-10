@@ -1,4 +1,5 @@
 Having same METHOD NAME with different (Number of/ type of) PARAMETERS
+also, this is within the SAME CLASS
 _____________________________________________
 import java.util.Scanner;
 class code{
