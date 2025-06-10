@@ -1,0 +1,47 @@
+This basically makes a connection between different classes
+hence you need not define variable in each class and can be updated
+keyword 'extends' is used when defining sub classes
+There are 3 types
+Single       A<--B
+Multiple     A<--B<--C
+Hierarchial  A<--B and A<--C
+_____________________________________________
+
+single
+
+import java.util.Scanner;
+class A{
+    int n;
+    public void a(int n){
+        this.n=n;
+    }
+    public void display(int n){
+        System.out.println(n);
+    }
+}
+
+class B extends A{
+    int update(){
+        return n+=10;
+    }
+}
+
+class code{
+    public static void main(String args[]){
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+        A parent = new A();
+        B child = new B();
+        
+        parent.display(n);
+        n = child.update();
+        parent.display(n);
+    }
+}
+____________________________________________________________
+INPUT
+5
+
+OUTPUT
+5
+10
