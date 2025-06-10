@@ -1,0 +1,45 @@
+Hierarchial
+
+import java.util.Scanner;
+class A{
+    int n;
+    public void a(int n){
+        this.n=n;
+    }
+    public void display(int n){
+        System.out.println(n);
+    }
+}
+
+class B extends A{
+    int update(){
+        return n+=10;
+    }
+}
+
+class C extends B{
+    int update(){
+        return n+=20;
+    }
+}
+
+class code{
+    public static void main(String args[]){
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+        A parent = new A();
+        B child = new B();
+        C grandchild = new C();
+        
+        parent.display(n);
+        n = grandchild.update();
+        parent.display(n);
+    }
+}
+_____________________________________________________
+INPUT
+5
+
+OUTPUT
+5
+20
