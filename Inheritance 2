@@ -1,4 +1,4 @@
-Hierarchial
+MULTIPLE INHERITANCE
 
 import java.util.Scanner;
 class A{
