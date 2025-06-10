@@ -1,0 +1,24 @@
+Having same METHOD NAME with different (Number of/ type of) PARAMETERS
+_____________________________________________
+import java.util.Scanner;
+class code{
+    static void function(int n){
+        System.out.print("Its an integer");
+    }
+    static void function(float n){
+        System.out.print("Its a float");
+    }
+    public static void main(String args[]){
+        Scanner s = new Scanner(System.in);
+        int a = s.nextInt();
+        float b = s.nextFloat();
+        code.function(b);                         since b is float, 2nd function is executed
+    }
+}
+____________________________________________
+INPUT
+5
+5.0
+
+OUTPUT
+Its a float
