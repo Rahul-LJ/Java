@@ -7,7 +7,7 @@ Multiple     A<--B<--C
 Hierarchial  A<--B and A<--C
 _____________________________________________
 
-single
+SINGLE INHERITANCE
 
 import java.util.Scanner;
 class A{
